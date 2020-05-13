@@ -16,5 +16,3 @@ aplikačnej oblasti.
 ## Cieľ:
 Cieľom práce je navrhnúť viacero metód určovania fyzikálnych veličín
 z obrazových meteorologických dát, vyhodnotiť ich úspešnosť a porovnať ich.
-
-### Vedúci: RNDr. Andrej Lúčny, PhD.
