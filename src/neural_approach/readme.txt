@@ -1,1 +1,1 @@
-Trenovanie na datasete s unifomnym rozlozeonim prikladov
+Trenovanie na datasete s unifomnym rozlozenim.
