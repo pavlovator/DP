@@ -21,7 +21,7 @@ class BaseDataset(Dataset):
             self.dates.append(date)
             self.directions.append(direction)
         self._len = len(self.Y)
-        self.Y = torch.as_tensor(self.Y)
+        self.Y = torch.as_tensor(self.Y).unsqueeze(1)
 
     def __getitem__(self, index):
         return self.X[index], self.Y[index]
@@ -30,12 +30,15 @@ class BaseDataset(Dataset):
         return self._len
 
 
+
 class ScaledDataset(BaseDataset):
     def __init__(self, folder_name, width=500):
         super().__init__(folder_name)
+        transformer = transforms.Compose([transforms.Resize(width),
+                                          transforms.ToTensor(),
+                                          transforms.Normalize((0.0, ), (1, ))])
         for name in self.file_names:
             image = Image.open(name)
-            transformer = transforms.Compose([transforms.Resize(width), transforms.ToTensor()])
             self.X.append(transformer(image))
         self.X = torch.stack(self.X)
 
