@@ -12,14 +12,17 @@ class BaseDataset(Dataset):
         self.Y = []
         self.dates = []
         self.directions = []
+        self.arrows = []
         for name in self.file_names:
             parts = name.split('_')
-            direction = parts[2]
-            distance = parts[4]
-            date = parts[6].split('.')[0]
+            direction = parts[1]
+            distance = parts[3]
+            date = parts[5]
+            arrows = torch.as_tensor(list(map(int, list(parts[7].split(".")[0]))))
             self.Y.append(float(distance))
             self.dates.append(date)
             self.directions.append(direction)
+            self.arrows.append(arrows)
         self._len = len(self.Y)
         self.Y = torch.as_tensor(self.Y).unsqueeze(1)
 
@@ -33,12 +36,21 @@ class BaseDataset(Dataset):
 
 class ScaledDataset(BaseDataset):
     def __init__(self, folder_name, width=500):
-        super().__init__(folder_name)
+        super(BaseDataset).__init__(folder_name)
         transformer = transforms.Compose([transforms.Resize(width),
                                           transforms.ToTensor(),
-                                          transforms.Normalize((0.0, ), (1, ))])
+                                          transforms.Normalize((0.0, ), (1.0, ))])
         for name in self.file_names:
             image = Image.open(name)
             self.X.append(transformer(image))
         self.X = torch.stack(self.X)
+
+
+def ScaledClassifierDataset(ScaledDataset):
+    def __init__(self, folder_name, width=500):
+        super(ScaledDataset).__init__(folder_name, width)
+        self.Y = torch.as_tensor(self.arrows)
+
+
+test_set = ScaledClassifierDataset("uniform_test/*", width=100)
 
