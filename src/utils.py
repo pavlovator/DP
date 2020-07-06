@@ -4,6 +4,8 @@ from matplotlib import pyplot as plt
 import cv2
 from sklearn.decomposition import PCA
 from sklearn.metrics import confusion_matrix
+import shutil, os
+from sklearn.model_selection import train_test_split
 
 def plot_directions(data):
     for i, direction in enumerate([0, 45, 90, 135, 180, 225, 270, 315]):
@@ -85,6 +87,9 @@ def get_image(str_date, direction):
     img_name = "panasonic_fullhd_{:}_{:}.jpg".format(datetime.strftime('%Y%m%d%H%M'), direction.zfill(3))
     return img_name
 
+def get_image2(str_date, direction):
+    img_name = "panasonic_fullhd_{:}_{:}.jpg".format(str_date, str(direction).zfill(3))
+    return img_name
 
 def create_grey_space(data, direction):
     hists = []
@@ -184,7 +189,87 @@ def plot_real_pred(T, Y):
     plt.ylabel('prediction')
     plt.show()
 
+
+def sample_uniform(data, n):
+    '''
+    :param data: data dataframe
+    :param n: numbre of samples per visibility and direction
+    :return: return desired dataframe
+    '''
+    new_df = pd.DataFrame(columns = ['visibility', 'date', 'direction'])
+    for direction in ['0', '45', '90', '135', '180', '225', '270', '315']:
+        dir_series = data[direction]
+        dir_value_counts = dir_series.value_counts()
+        dir_visibility = dir_value_counts.keys()
+        dir_visibility_counts = dir_value_counts.values
+        for vis, counts in zip(dir_visibility, dir_visibility_counts):
+            if counts >= n:
+                new = data.loc[data[direction] == vis][[direction, 'date']].sample(n)
+                new['direction'] = direction
+                new = new.rename(columns={direction: 'visibility'})
+                new_df = new_df.append(new)
+    return new_df
+
+def create_smaller_dataset(data):
+    '''
+    :param data: new dataframe
+    :return: return sampled dataframe from sample_uniform function
+    '''
+    train, test = train_test_split(data, test_size=0.2)
+    for row in train.values:
+        dist, str_date, direction = row
+        image = get_image2(str_date, direction)
+        shutil.copy('pics/'+image, 'uniform_train/dir_{:}_dist_{:}_date_{:}.jpg'.format(direction, int(dist), image.split('_')[2]))
+
+    for row in test.values:
+        dist, str_date, direction = row
+        image = get_image2(str_date, direction)
+        shutil.copy('pics/'+image, 'uniform_test/dir_{:}_dist_{:}_date_{:}.jpg'.format(direction, int(dist), image.split('_')[2]))
+
+def sample_uniform_with_arrows(data, n):
+    '''
+    :param data: data dataframe
+    :param n: numbre of samples per visibility and direction
+    :return: return desired dataframe
+    '''
+    num_arrows = {0:17, 45:20, 90:19, 135:8, 180:15, 225:9, 270:23, 315:20}
+    new_df = pd.DataFrame(columns=['visibility', 'date', 'direction'])
+    for direction in [0, 45, 90, 135, 180, 225, 270, 315]:
+        dir_series = data[np.logical_and(data['direction'] == direction, data.arrows_code.str.len() == num_arrows[direction])]['visibility']
+        dir_value_counts = dir_series.value_counts()
+        dir_visibility = dir_value_counts.keys()
+        dir_visibility_counts = dir_value_counts.values
+        for vis, counts in zip(dir_visibility, dir_visibility_counts):
+            if counts >= n:
+                new = data[np.logical_and(data['visibility'] == vis, data.arrows_code.str.len() == num_arrows[direction])].sample(n)
+                new_df = new_df.append(new, sort=False)
+    return new_df
+
+def create_smaller_dataset_with_arrows(data):
+    '''
+    :param data: new dataframe
+    :return: return sampled dataframe from sample_uniform function
+    '''
+    train, test = train_test_split(data, test_size=0.2)
+    for row in train.values:
+        dist, date, direction, arrows = row
+        image = get_image2(date, direction)
+        shutil.copy('pics/'+image, 'uniform_train/dir_{:}_dist_{:}_date_{:}_arrows_{:}.jpg'.format(direction, dist, date, arrows))
+
+    for row in test.values:
+        dist, date, direction, arrows = row
+        image = get_image2(date, direction)
+        shutil.copy('pics/'+image, 'uniform_test/dir_{:}_dist_{:}_date_{:}_arrows_{:}.jpg'.format(direction, dist, date, arrows))
+
 '''
+data = pd.read_csv('data_3m.csv')
+data = data.dropna()
+new_data = sample_uniform(data, 35)
+#create_smaller_dataset(new_data)
+
 train_set = pd.read_csv('datasets/processed/train_set_3m_processed.csv')
 test_set = pd.read_csv('datasets/processed/test_set_3m_processed.csv')
 '''
+data = pd.read_csv('dataset_arrows_3m.csv')
+new_data = sample_uniform_with_arrows(data, 35)
+create_smaller_dataset_with_arrows(new_data)
