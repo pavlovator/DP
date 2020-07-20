@@ -20,22 +20,24 @@ class BaseDataset(Dataset):
             direction = parts[2]
             distance = parts[4]
             date = parts[6]
-            tensor_arrows = torch.as_tensor(list(map(int, list(parts[8].split(".")[0]))))
+            tensor_arrows = torch.as_tensor(list(map(float, list(parts[8].split(".")[0]))))
             self.distances.append(float(distance))
             self.dates.append(date)
             self.directions.append(int(direction))
             self.arrows.append(tensor_arrows)
-        self._len = len(self.distances)
         self.Y = torch.as_tensor(self.distances).unsqueeze(1)
 
     def __getitem__(self, index):
         return self.X[index], self.Y[index]
 
+    def get_all(self):
+        return self.X, self.Y
+
     def __len__(self):
-        return self._len
+        return len(self.Y)
 
 
-class ScaledDataset(BaseDataset):
+class ScaledDatasetR(BaseDataset):
     def __init__(self, folder_name, width):
         super().__init__(folder_name)
         transformer = transforms.Compose([transforms.Resize(width),
@@ -46,36 +48,27 @@ class ScaledDataset(BaseDataset):
             self.X.append(transformer(image))
         self.X = torch.stack(self.X)
 
-
-class ScaledClassifierDataset(ScaledDataset):
+class ScaledDatasetC(BaseDataset):
     def __init__(self, folder_name, width, direction):
-        super().__init__(folder_name, width)
+        super().__init__(folder_name)
+        self.transformer = transforms.Compose([transforms.Resize(width),
+                                          transforms.ToTensor(),
+                                          transforms.Normalize((0.0,), (1.0,))])
         self.current_direction = direction
-        self.X_by_directions = {0: [], 45: [], 90: [], 135: [], 180: [], 225: [], 270: [], 315: []}
-        self.Y_by_directions = {0: [], 45: [], 90: [], 135: [], 180: [], 225: [], 270: [], 315: []}
-        self.dates_by_direction = {0: [], 45: [], 90: [], 135: [], 180: [], 225: [], 270: [], 315: []}
-        self.distances_by_direction = {0: [], 45: [], 90: [], 135: [], 180: [], 225: [], 270: [], 315: []}
-        self.arrows_by_direction = {0: [], 45: [], 90: [], 135: [], 180: [], 225: [], 270: [], 315: []}
-        for i in range(self._len):
-            self.X_by_directions[self.directions[i]].append(self.X[i])
-            self.Y_by_directions[self.directions[i]].append(self.arrows[i])
-            self.dates_by_direction[self.directions[i]].append(self.dates[i])
-            self.distances_by_direction[self.directions[i]].append(self.distances[i])
-            self.arrows_by_direction[self.directions[i]].append(self.arrows[i])
-        self._len = len(self.X_by_directions[self.directions[i]])
-        for d in range(0, 360, 45):
-            self.X_by_directions[d] = torch.stack(self.X_by_directions[d])
-            self.Y_by_directions[d] = torch.stack(self.Y_by_directions[d])
-
-    def __getitem__(self, index):
-        return self.X_by_directions[self.current_direction][index], self.Y_by_directions[self.current_direction][index]
-
-    def __len__(self):
-        return self._len
+        self.change_direction(self.current_direction)
 
     def change_direction(self, direction):
         self.current_direction = direction
-        self._len = len(self.X_by_directions[self.current_direction])
+        self.X, self.Y, self.indexes = [], [], []
+        for idx, img_info in enumerate(zip(self.file_names, self.directions)):
+            img_name, img_direction = img_info
+            if img_direction == self.current_direction:
+                image = Image.open(img_name)
+                self.X.append(self.transformer(image))
+                self.Y.append(self.arrows[idx])
+                self.indexes.append(idx)
+        self.X = torch.stack(self.X)
+        self.Y = torch.stack(self.Y)
 
 
-test_set = ScaledClassifierDataset("uniform_test/*", 100, 0)
+#test_set_R = ScaledDatasetR("uniform_test/*", 100)
