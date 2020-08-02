@@ -1,1 +1,1 @@
-Trenovanie na datasete s unifomnym rozlozenim.
+CNN-classifikator
