@@ -42,8 +42,8 @@ class Net(nn.Module):
         return x
 
 
-batch_size = 512
-n_epochs = 5
+batch_size = 64
+n_epochs = 10
 
 
 train_loader = torch.utils.data.DataLoader(torchvision.datasets.STL10(root="files/",
@@ -66,10 +66,10 @@ def train():
 
 if torch.cuda.is_available():
     dev = "cuda:0"
-    print('Running on GPU')
+    print('Running on GPU with batch of size {:}'.format(batch_size))
 else:
     dev = "cpu"
-    print('Running on CPU')
+    print('Running on CPU with batch of size {:}'.format(batch_size))
 
 device = torch.device(dev)
 
@@ -89,4 +89,4 @@ for epoch in range(1, n_epochs + 1):
     times.append(str(round(toc - tic, 2)))
     print(get_gpu_memory_map())
 
-save_times(times, "test2_GPU.txt")
+save_times(times, "results/PC1_test2_{:}_batch_{:}.txt".format(dev_name(dev), batch_size))

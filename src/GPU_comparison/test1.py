@@ -10,11 +10,11 @@ from utils import *
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-        self.h1 = nn.Linear(28*28,300)
+        self.h1 = nn.Linear(28*28, 300)
         self.fc1 = nn.Tanh()
-        self.h2 = nn.Linear(300,100)
+        self.h2 = nn.Linear(300, 100)
         self.fc2 = nn.Tanh()
-        self.out = nn.Linear(100,10)
+        self.out = nn.Linear(100, 10)
         self.fc3 = nn.Sigmoid()
 
     def forward(self, x):
@@ -22,7 +22,7 @@ class Net(nn.Module):
         return x
 
 
-batch_size = 5000
+batch_size = 16
 n_epochs = 10
 
 
@@ -52,10 +52,10 @@ def train():
 
 if not torch.cuda.is_available():
     dev = "cuda:0"
-    print('Running on GPU')
+    print('Running on GPU with batch of size {:}'.format(batch_size))
 else:
     dev = "cpu"
-    print('Running on CPU')
+    print('Running on CPU with batch of size {:}'.format(batch_size))
 
 device = torch.device(dev)
 
@@ -75,4 +75,4 @@ for epoch in range(1, n_epochs + 1):
     times.append(str(round(toc - tic, 2)))
     print(get_gpu_memory_map())
 
-save_times(times, "test1_GPU.txt")
+save_times(times, "results/PC1_test1_{:}_batch_{:}.txt".format(dev_name(dev), batch_size))
