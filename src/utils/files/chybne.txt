@@ -1,0 +1,70 @@
+pre smer 45 strom 216.0m sa zmerinili x, y pozicie
+do konca januaru 2020 to bolo
+x = 1513.0485756883343
+y = 614.4465859422406
+po konci januaru 2020 to bolo
+x = 1452.7192548098114
+y = 553.9886948083789
+
+------
+outputy co vygenerujem
+{'0': 17,
+ '45': 23,
+ '90': 19,
+ '135': 8,
+ '180': 15,
+ '225': 10,
+ '270': 23,
+ '315': 22}
+outputy od oka
+{'0': 17,
+ '45': 20,
+ '90': 16,
+ '135': 8,
+ '180': 15,
+ '225': 9,
+ '270': 20,
+ '315': 15}
+
+#####
+ked si vypisem 
+old (2019)| new (2020 2. mesiac) | a ich prienik na zaklade x, y  
+
+0 17 17 17
+45 23 21 17
+90 19 19 19
+135 8 8 8
+180 15 15 15
+225 10 9 9
+270 23 24 23
+315 22 20 20
+
+po opraveni stromu 
+0 17 17 17
+45 23 21 18
+90 19 19 19
+135 8 8 8
+180 15 15 15
+225 10 9 9
+270 23 24 23
+315 22 20 20
+
+for d in range(0, 360, 45):
+    o = xml_old.get_pointer_attributes(d)
+    n = xml_new.get_pointer_attributes(d)
+    old_set = set()
+    new_set = set()
+    o_xy = set([])
+    n_xy = set([])
+    for i in range(len(o['x'])):
+        if o['type'][i] != 'N':
+            old_set.add(o['label'][i]+' '+o['distance'][i])
+            o_xy.add(o['x'][i]+o['y'][i])
+    for i in range(len(n['x'])):
+        if n['type'][i] != 'N':
+            new_set.add(n['label'][i]+' '+n['distance'][i])
+            n_xy.add(n['x'][i] + n['y'][i])
+    print(d, len(old_set), len(new_set), len(o_xy.intersection(n_xy)))
+
+
+########

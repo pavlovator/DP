@@ -1,0 +1,1007 @@
+<x xclass="com.microstepmis.remoteObserver.visibility.VisibilityPoint[]">
+	<x azimuth="0.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="bottom" label="Slavkovský nos" latitude="49.163843" longitude="20.19193" visibility="VISIBILITY_OBSCURED" x="339.91410989200364" y="303.4323626349954">
+				<dist value="11320.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Lomnický štít - 6358 ft." latitude="49.19507" longitude="20.213088" visibility="VISIBILITY_OBSCURED" x="663.881062627996" y="306.74270778026397">
+				<dist value="14600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Skalnaté pleso - 3471 ft." latitude="49.187563" longitude="20.23248" visibility="VISIBILITY_OBSCURED" x="788.2427504456159" y="383.5048623686855">
+				<dist value="13400.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Smokovec - 1001 ft." latitude="49.139772" longitude="20.221839" visibility="VISIBILITY_OBSCURED" x="413.84708737864077" y="473.67960365073196">
+				<dist value="7800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Kríky" latitude="49.087066" longitude="20.242367" visibility="VISIBILITY_VISIBLE" x="594.262167921344" y="528.44415609119">
+				<dist value="2100.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Hotel Bellevue - 1017 ft." latitude="49.139363" longitude="20.229429" visibility="VISIBILITY_OBSCURED" x="687.0582684266915" y="465.7500079997535">
+				<dist value="8000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Kríky" latitude="49.082332" longitude="20.248833" visibility="VISIBILITY_VISIBLE" x="1082.1407340336773" y="511.5582364276775">
+				<dist value="1500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Kríky" latitude="49.074334" longitude="20.250611" visibility="VISIBILITY_VISIBLE" x="1255.3411376953125" y="550.1170607622931">
+				<dist value="660.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Belianske Tatry - 2657 ft." latitude="49.239897" longitude="20.220005" visibility="VISIBILITY_OBSCURED" x="1226.4466872724515" y="432.3058385756409">
+				<dist value="18000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Pálenica - 1572 ft." latitude="49.233621" longitude="20.319223" visibility="VISIBILITY_OBSCURED" x="1435.3252107194326" y="471.429592984394">
+				<dist value="19500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Smer vetra" latitude="49.070714" longitude="20.247267" visibility="VISIBILITY_VISIBLE" x="616.3907660326912" y="623.4465886088251">
+				<dist value="235.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Roh dráhy" latitude="49.072837" longitude="20.248271" visibility="VISIBILITY_VISIBLE" x="1024.0558039100424" y="579.1019550804953">
+				<dist value="460.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Roh dráhy" latitude="49.069885" longitude="20.248007" visibility="VISIBILITY_VISIBLE" x="968.0461698365443" y="706.5218686594546">
+				<dist value="133.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Les" latitude="49.101059" longitude="20.233537" visibility="VISIBILITY_VISIBLE" x="274.39082469755004" y="534.8446788602662">
+				<dist value="3800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Koniec odstavnej plochy" latitude="49.069633" longitude="20.247562" visibility="VISIBILITY_VISIBLE" x="614.5741321194556" y="779.4774110855594">
+				<dist value="108.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Dráha" latitude="49.073144" longitude="20.244115" visibility="VISIBILITY_VISIBLE" x="1402.69773236443" y="571.2088719985064">
+				<dist value="516.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Škvrna" latitude="49.072787" longitude="20.251409" visibility="VISIBILITY_VISIBLE" x="1409.3683205997243" y="655.5917821547564">
+				<dist value="200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="45.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="left" label="Stĺp" latitude="49.068965" longitude="20.248133" visibility="VISIBILITY_VISIBLE" x="244.37622959173999" y="239.9198869131144">
+				<dist value="35.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Dráha" latitude="49.072844" longitude="20.25181" visibility="VISIBILITY_VISIBLE" x="285.007297552905" y="605.9927264463554">
+				<dist value="548.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Kríky" latitude="49.079391" longitude="20.257497" visibility="VISIBILITY_VISIBLE" x="487.4854582258799" y="541.1796036507319">
+				<dist value="1400.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Budova" latitude="49.071502" longitude="20.251346" visibility="VISIBILITY_VISIBLE" x="728.8908193643811" y="611.934463352833">
+				<dist value="416.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Les" latitude="49.114897" longitude="20.296616" visibility="VISIBILITY_OBSCURED" x="640.3543475993629" y="521.563088130025">
+				<dist value="6300.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Stĺp" latitude="49.069371" longitude="20.249093" visibility="VISIBILITY_VISIBLE" x="939.8883175155491" y="419.0460871724249">
+				<dist value="116.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Budova" latitude="49.071697" longitude="20.254659" visibility="VISIBILITY_VISIBLE" x="1230.3787261074028" y="578.9053211397338">
+				<dist value="610.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Dráha" latitude="49.072778" longitude="20.252933" visibility="VISIBILITY_VISIBLE" x="764.9999694824219" y="578.8999938964844">
+				<dist value="590.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Kríky" latitude="49.071457" longitude="20.253351" visibility="VISIBILITY_VISIBLE" x="1100.7305611915958" y="582.7281633395593">
+				<dist value="510.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Strom" latitude="49.069588" longitude="20.250586" visibility="VISIBILITY_VISIBLE" x="1513.0485756883343" y="614.4465859422406">
+				<dist value="216.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Koniec dráhy" latitude="49.072582" longitude="20.259563" visibility="VISIBILITY_VISIBLE" x="1420.733020375076" y="552.4732956377048">
+				<dist value="960.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Čierna hora - 1946 ft." latitude="49.19248" longitude="20.62417" visibility="VISIBILITY_OBSCURED" x="1474.7985543556583" y="482.7888429512098">
+				<dist value="30700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Barich - 240 ft." latitude="49.101477" longitude="20.359273" visibility="VISIBILITY_OBSCURED" x="1575.3277765662924" y="499.5000079997535">
+				<dist value="8900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Veľký Slavkov" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="872.0169689585862" y="516.9757094892483">
+				<dist value="3800.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Mlynica" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1069.9078309883191" y="515.927181799435">
+				<dist value="5900.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Transmissometer" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1098.9611757148816" y="564.0073002194896">
+				<dist value="5303.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Stožiar" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1322.0607009443265" y="554.9199002460368">
+				<dist value="650.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Veľká Lomnica" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1408.0194921400941" y="507.2985276898134">
+				<dist value="9400.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Bilboard" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1546.361629152761" y="654.2693988096366">
+				<dist value="180.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Stromy" latitude="49.080166" longitude="20.282921" visibility="VISIBILITY_VISIBLE" x="1627.9514349780036" y="526.2378640776699">
+				<dist value="2900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Lesík" latitude="49.078228" longitude="20.269354" visibility="VISIBILITY_VISIBLE" x="1278.3058892407464" y="525.1456177350387">
+				<dist value="1900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec bieleho plotu" latitude="49.073904" longitude="20.260646" visibility="VISIBILITY_VISIBLE" x="1309.3000183105469" y="545.1499938964844">
+				<dist value="1100.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Roh lúky" latitude="49.070969" longitude="20.250982" visibility="VISIBILITY_VISIBLE" x="837.5418740549395" y="613.4128949565272">
+				<dist value="340.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Krík" latitude="49.070169" longitude="20.251721" visibility="VISIBILITY_VISIBLE" x="1313.670906313004" y="622.7032175371723">
+				<dist value="318.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Dráha" latitude="49.072421" longitude="20.254454" visibility="VISIBILITY_VISIBLE" x="978.0580030871976" y="575.0903143113659">
+				<dist value="640.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec odstavnej plochy" latitude="49.069627" longitude="20.248875" visibility="VISIBILITY_VISIBLE" x="513.5418740549395" y="758.5741852791078">
+				<dist value="123.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Krík" latitude="49.070175" longitude="20.250765" visibility="VISIBILITY_VISIBLE" x="1070.9612288936491" y="636.63870140814">
+				<dist value="272.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Krík" latitude="49.074243" longitude="20.252659" visibility="VISIBILITY_VISIBLE" x="477.5418740549395" y="583.2193465694304">
+				<dist value="730.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Strom" latitude="49.071058" longitude="20.255729" visibility="VISIBILITY_VISIBLE" x="1558.5988467945772" y="566.80942921358">
+				<dist value="616.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="90.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="bottom" label="Matejovský vrch - 210 ft." latitude="49.090416" longitude="20.351097" visibility="VISIBILITY_VISIBLE" x="442.68883128446686" y="511.2529508702895">
+				<dist value="7800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Javorina - 1732 ft." latitude="49.12471" longitude="20.61634" visibility="VISIBILITY_OBSCURED" x="594.5679984972315" y="505.74757548211846">
+				<dist value="28100.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Krížový vrch - 1260 ft." latitude="49.09524" longitude="20.56162" visibility="VISIBILITY_OBSCURED" x="761.5074954815765" y="510.44775094558946">
+				<dist value="22600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Stromy" latitude="49.070166" longitude="20.294313" visibility="VISIBILITY_VISIBLE" x="875.3507790636661" y="518.3731261296059">
+				<dist value="3300.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Tatravagónka komín" latitude="49.061527" longitude="20.322286" visibility="VISIBILITY_VISIBLE" x="1179.839650623834" y="502.72388059701495">
+				<dist value="5500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Vtáčí vrch - 515 ft." latitude="49.03594" longitude="20.47351" visibility="VISIBILITY_OBSCURED" x="1586.7873052340835" y="503.16043341337746">
+				<dist value="16700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Koniec stromov" latitude="49.070507" longitude="20.256626" visibility="VISIBILITY_VISIBLE" x="435.82343606387866" y="571.2940979003906">
+				<dist value="675.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Lampa" latitude="49.069143" longitude="20.249669" visibility="VISIBILITY_VISIBLE" x="355.86946857509326" y="654.0112145267316">
+				<dist value="130.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Strom" latitude="49.068871" longitude="20.250972" visibility="VISIBILITY_VISIBLE" x="849.8619239010028" y="648.5372867868907">
+				<dist value="190.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Bilboard" latitude="49.068622" longitude="20.249353" visibility="VISIBILITY_VISIBLE" x="1150.354518605702" y="738.6380801983734">
+				<dist value="104.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Strom" latitude="49.068714" longitude="20.248932" visibility="VISIBILITY_VISIBLE" x="851.3731179308536" y="819.9066959210296">
+				<dist value="71.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Strom" latitude="49.067907" longitude="20.251118" visibility="VISIBILITY_VISIBLE" x="1552.2314088736007" y="593.2611960795389">
+				<dist value="246.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Stromy" latitude="49.078763" longitude="20.285941" visibility="VISIBILITY_VISIBLE" x="309.75733488508797" y="559.0922316764165">
+				<dist value="2900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Bilboard" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="249.85926063315384" y="692.1917502394">
+				<dist value="181.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Vykrývač" latitude="0.0" longitude="0.0" visibility="VISIBILITY_VISIBLE" x="521.3009762069554" y="538.7548383694251">
+				<dist value="2700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Pohrebníctvo" latitude="49.071261" longitude="20.279595" visibility="VISIBILITY_VISIBLE" x="742.5655979786104" y="550.7475688156572">
+				<dist value="2300.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Svetlá" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="879.750010666338" y="519.9465779424871">
+				<dist value="3300.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Strom" latitude="49.071058" longitude="20.255729" visibility="VISIBILITY_VISIBLE" x="255.73522231158088" y="602.3235276166131">
+				<dist value="616.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Strom" latitude="49.069482" longitude="20.253233" visibility="VISIBILITY_VISIBLE" x="582.7941176470588" y="613.8235473632812">
+				<dist value="396.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Strom" latitude="49.070001" longitude="20.254131" visibility="VISIBILITY_VISIBLE" x="417.05878762637866" y="618.2352851418888">
+				<dist value="473.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Cesta" latitude="49.069929" longitude="20.254754" visibility="VISIBILITY_VISIBLE" x="524.7058464499081" y="619.9999910242417">
+				<dist value="507.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="135.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="bottom" label="Sýpka" latitude="49.06149" longitude="20.271267" visibility="VISIBILITY_VISIBLE" x="396.73885516266324" y="531.8731199805417">
+				<dist value="1900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Diaľnica" latitude="49.064854" longitude="20.255992" visibility="VISIBILITY_VISIBLE" x="683.4291372726212" y="588.0223778112611">
+				<dist value="720.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Panelák" latitude="49.044443" longitude="20.293678" visibility="VISIBILITY_VISIBLE" x="784.7127111634212" y="526.8357758023845">
+				<dist value="4200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Pumpa" latitude="49.061045" longitude="20.261482" visibility="VISIBILITY_VISIBLE" x="805.6679842365322" y="569.9552279799732">
+				<dist value="1300.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Juh 3" latitude="49.045741" longitude="20.283944" visibility="VISIBILITY_VISIBLE" x="916.9253403393191" y="529.8246207166073">
+				<dist value="3500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Stromy" latitude="49.058833" longitude="20.255427" visibility="VISIBILITY_VISIBLE" x="1409.2724290534632" y="544.8022347065939">
+				<dist value="1200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Kvetnica - 636 ft." latitude="49.01823" longitude="20.29139" visibility="VISIBILITY_OBSCURED" x="1423.0410447761194" y="474.61564704553405">
+				<dist value="6800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Lampa" latitude="49.068125" longitude="20.249137" visibility="VISIBILITY_VISIBLE" x="763.6567164179105" y="660.2238601001341">
+				<dist value="109.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="180.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="top" label="Zjazd z diaľnice" latitude="49.06484" longitude="20.250221" visibility="VISIBILITY_VISIBLE" x="551.8881088940066" y="628.1865589654268">
+				<dist value="465.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Stromy" latitude="49.05917" longitude="20.251091" visibility="VISIBILITY_VISIBLE" x="607.2314088736008" y="573.0111899304746">
+				<dist value="1000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Stromy" latitude="49.05366" longitude="20.252121" visibility="VISIBILITY_VISIBLE" x="663.3470313228778" y="556.0186505673537">
+				<dist value="1700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Krížová - 804 ft." latitude="49.018292" longitude="20.26512" visibility="VISIBILITY_OBSCURED" x="599.1717073810635" y="475.7238621498222">
+				<dist value="5900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Človečia hlava - 1880 ft." latitude="48.931089" longitude="20.255806" visibility="VISIBILITY_OBSCURED" x="1009.2090208138993" y="481.70149048762534">
+				<dist value="15800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Košiarová dolinka - 276 ft." latitude="49.027741" longitude="20.242513" visibility="VISIBILITY_VISIBLE" x="1063.3768656716418" y="507.76119402985074">
+				<dist value="4700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Nadjazd" latitude="49.064556" longitude="20.246189" visibility="VISIBILITY_VISIBLE" x="1292.9776365365556" y="539.7984951645581">
+				<dist value="488.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Stromy" latitude="49.068044" longitude="20.247942" visibility="VISIBILITY_VISIBLE" x="1123.4217401760727" y="670.1641914026061">
+				<dist value="75.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Križovatka" latitude="49.066161" longitude="20.246694" visibility="VISIBILITY_VISIBLE" x="1492.9077563239532" y="579.3422676753072">
+				<dist value="302.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Repiská - 932 ft." latitude="49.019839" longitude="20.225628" visibility="VISIBILITY_OBSCURED" x="1668.8956371705924" y="418.4328153240147">
+				<dist value="5500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Černušov hreben" latitude="49.03445" longitude="20.230191" visibility="VISIBILITY_OBSCURED" x="1517.1141098920036" y="475.40648803710934">
+				<dist value="4000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Špiská Teplica domy" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="681.044776119403" y="545.9104498108821">
+				<dist value="1900.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Špiská Teplica domy" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1290.022396258454" y="512.6977550449656">
+				<dist value="2400.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Strom" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1739.6529194846082" y="611.4290675832265">
+				<dist value="105.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Kríky" latitude="49.066497" longitude="20.246964" visibility="VISIBILITY_VISIBLE" x="1426.5881706686582" y="630.6176578297335">
+				<dist value="260.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Stromy" latitude="49.054649" longitude="20.243441" visibility="VISIBILITY_VISIBLE" x="1627.6552863625918" y="526.2935313505285">
+				<dist value="1140.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Stromy" latitude="49.065271" longitude="20.247897" visibility="VISIBILITY_VISIBLE" x="991.8773862777217" y="609.8128878685735">
+				<dist value="380.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Cesta" latitude="49.067097" longitude="20.246983" visibility="VISIBILITY_VISIBLE" x="1597.6470229204963" y="639.4117557301241">
+				<dist value="197.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="225.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="left" label="Stromy" latitude="49.059403" longitude="20.241542" visibility="VISIBILITY_VISIBLE" x="390.9441564223345" y="554.3417821547564">
+				<dist value="1100.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Budova ATE" latitude="49.067534" longitude="20.246657" visibility="VISIBILITY_VISIBLE" x="784.6165421865519" y="665.2135815666717">
+				<dist value="165.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Začiatok lesa - 243 ft." latitude="49.040525" longitude="20.217934" visibility="VISIBILITY_VISIBLE" x="677.7743145100121" y="530.2135815666717">
+				<dist value="3800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Paneláky - 80 ft." latitude="49.055768" longitude="20.213541" visibility="VISIBILITY_VISIBLE" x="1369.1358903310831" y="504.74272644635545">
+				<dist value="2900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Černušov - 636 ft." latitude="49.037249" longitude="20.217636" visibility="VISIBILITY_OBSCURED" x="498.5170382897831" y="472.60921663450966">
+				<dist value="4500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Krížový vrch - 1332 ft." latitude="49.01831" longitude="20.20374" visibility="VISIBILITY_OBSCURED" x="814.1723514297634" y="441.5679531652951">
+				<dist value="7900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Paliesky - 1007 ft." latitude="49.03962" longitude="20.19548" visibility="VISIBILITY_OBSCURED" x="1141.4272271313714" y="435.40776299041454">
+				<dist value="4900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Malý Smolník - 846 ft." latitude="49.04933" longitude="20.19491" visibility="VISIBILITY_OBSCURED" x="1416.5606689453125" y="422.67231543087263">
+				<dist value="4300.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Budova" latitude="49.068353" longitude="20.247108" visibility="VISIBILITY_VISIBLE" x="1427.1881965188418" y="550.1806134392233">
+				<dist value="70.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Spišská Teplica domy" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="98.01697962492415" y="557.4101835084193">
+				<dist value="2400.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Strom" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="329.1990557920586" y="708.7062813471822">
+				<dist value="105.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Lučivná" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1852.252363186438" y="483.02911554725426">
+				<dist value="7800.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Nadjazd" latitude="49.064598" longitude="20.244672" visibility="VISIBILITY_VISIBLE" x="464.46355267693014" y="591.2206367043888">
+				<dist value="500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="270.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="bottom" label="Veža" latitude="49.068511" longitude="20.247168" visibility="VISIBILITY_VISIBLE" x="345.36407766990294" y="451.7475594826115">
+				<dist value="70.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Lučivná - 210 ft." latitude="49.05215" longitude="20.14532" visibility="VISIBILITY_VISIBLE" x="521.9126373587303" y="526.1286274437765">
+				<dist value="9000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Valtierov vrch - 728 ft." latitude="49.05148" longitude="20.10718" visibility="VISIBILITY_OBSCURED" x="660.123818406781" y="510.7936599879589">
+				<dist value="10400.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Bôrik - 742 ft." latitude="49.06408" longitude="20.15507" visibility="VISIBILITY_OBSCURED" x="780.5097087378641" y="485.06069294457296">
+				<dist value="6500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Stĺp" latitude="49.068701" longitude="20.246572" visibility="VISIBILITY_VISIBLE" x="900.371375222808" y="413.14804891938144">
+				<dist value="101.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Les pri Mengusovciach - 407 ft." latitude="49.075064" longitude="20.145925" visibility="VISIBILITY_VISIBLE" x="1056.6698389145934" y="500.439339054441">
+				<dist value="7500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Stĺp" latitude="49.068801" longitude="20.247428" visibility="VISIBILITY_VISIBLE" x="1169.257249554384" y="244.79125680275334">
+				<dist value="38.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Kostol v Batizovciach" latitude="49.07615" longitude="20.18117" visibility="VISIBILITY_VISIBLE" x="1228.106796116505" y="506.3592366338934">
+				<dist value="4600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Budova" latitude="49.070364" longitude="20.230745" visibility="VISIBILITY_VISIBLE" x="1200.7161432081652" y="544.0257804624496">
+				<dist value="1200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec dráhy" latitude="49.07442" longitude="20.223452" visibility="VISIBILITY_VISIBLE" x="1520.388349514563" y="514.5072655538911">
+				<dist value="1900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec lesa" latitude="49.07673" longitude="20.217179" visibility="VISIBILITY_VISIBLE" x="1680.00727088706" y="476.2136055659322">
+				<dist value="2400.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Budova VDF" latitude="49.070954" longitude="20.234637" visibility="VISIBILITY_VISIBLE" x="1396.3764318129595" y="527.4688487333409">
+				<dist value="1000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Roh odstavnej plochy" latitude="49.069068" longitude="20.246154" visibility="VISIBILITY_VISIBLE" x="1227.290298954133" y="735.1161597467237">
+				<dist value="140.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Spojovačka ku dráhe" latitude="49.068688" longitude="20.244103" visibility="VISIBILITY_VISIBLE" x="976.6966232744236" y="632.5558279093029">
+				<dist value="281.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Les" latitude="49.068142" longitude="20.227774" visibility="VISIBILITY_VISIBLE" x="965.4774524319556" y="534.2903343939012">
+				<dist value="1400.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Budova" latitude="49.068354" longitude="20.243807" visibility="VISIBILITY_VISIBLE" x="754.1214018886529" y="591.7499653344015">
+				<dist value="303.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Hangár ATE" latitude="49.068334" longitude="20.245438" visibility="VISIBILITY_VISIBLE" x="546.9247466152154" y="627.6189400385884">
+				<dist value="185.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Stojánka" latitude="49.06884" longitude="20.247163" visibility="VISIBILITY_VISIBLE" x="1414.9879174093599" y="949.2378294120715">
+				<dist value="63.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Lučivná" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="573.9029552867112" y="520.7111543822057">
+				<dist value="7800.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Lom" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="935.7378854103459" y="522.4805798576873">
+				<dist value="5700.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Svetlá na konci dráhy" latitude="0.0" longitude="0.0" visibility="VISIBILITY_NOT_SET" x="1447.0558892407464" y="489.77910754750076">
+				<dist value="2200.0" />
+				<types>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Drn" latitude="49.069533" longitude="20.244484" visibility="VISIBILITY_VISIBLE" x="1636.5096159904233" y="613.4128949565272">
+				<dist value="276.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Drn" latitude="49.064451" longitude="20.243952" visibility="VISIBILITY_VISIBLE" x="1422.8321966355845" y="615.7354756016884">
+				<dist value="310.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec cesty" latitude="49.0699" longitude="20.243124" visibility="VISIBILITY_VISIBLE" x="1595.160054285386" y="565.2529896455652">
+				<dist value="388.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Kríky" latitude="49.06941" longitude="20.241584" visibility="VISIBILITY_VISIBLE" x="1263.7354224420362" y="570.4451353011592">
+				<dist value="470.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Kríky" latitude="0.0" longitude="0.0" visibility="VISIBILITY_VISIBLE" x="864.2515514742943" y="575.0903143113659">
+				<dist value="828.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+	<x azimuth="315.0" elevation="90.0">
+		<labels>
+			<x arrowPosition="bottom" label="Dráha" latitude="49.073144" longitude="20.244115" visibility="VISIBILITY_VISIBLE" x="1614.0600542853858" y="526.4682527429917">
+				<dist value="570.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Štrbské pleso - 2146 ft." latitude="49.11946" longitude="20.063252" visibility="VISIBILITY_OBSCURED" x="311.3082470940155" y="473.308255093769">
+				<dist value="14500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Kriváň - 5899 ft." latitude="49.16293" longitude="20.00009" visibility="VISIBILITY_OBSCURED" x="535.4782193378337" y="396.91748906107784">
+				<dist value="20900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="right" label="Solisko - 3753 ft." latitude="49.149299" longitude="20.039077" visibility="VISIBILITY_OBSCURED" x="555.9029499535421" y="445.3252373852776">
+				<dist value="17500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Klin - 4878 ft." latitude="49.14881" longitude="20.10415" visibility="VISIBILITY_OBSCURED" x="841.4782300041717" y="346.0849354568037">
+				<dist value="13600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Gerlachovský štít - 6424 ft." latitude="49.16451" longitude="20.13378" visibility="VISIBILITY_OBSCURED" x="1148.264616438486" y="277.6238050738585">
+				<dist value="13200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Slavkovský štít - 5761 ft." latitude="49.1667" longitude="20.18432" visibility="VISIBILITY_OBSCURED" x="1584.2941104664521" y="248.9117431640625">
+				<dist value="11700.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Tatranské zruby - 1033 ft." latitude="49.12995" longitude="20.2" visibility="VISIBILITY_OBSCURED" x="1460.2937213194023" y="441.34947989750833">
+				<dist value="7600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Nová Polianka - 1188 ft." latitude="49.11884" longitude="20.15319" visibility="VISIBILITY_OBSCURED" x="811.1578043224742" y="462.58250560575317">
+				<dist value="8900.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Radar" latitude="49.071653" longitude="20.23965" visibility="VISIBILITY_VISIBLE" x="479.1407553663532" y="569.8179611650486">
+				<dist value="695.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Vyšné Hágy - 1358 ft." latitude="49.11931" longitude="20.12722" visibility="VISIBILITY_OBSCURED" x="608.002464516649" y="471.82278086838215">
+				<dist value="10500.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Starý radar" latitude="49.071812" longitude="20.241124" visibility="VISIBILITY_VISIBLE" x="676.8349834553246" y="574.2087458638312">
+				<dist value="600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Tatranská Polianka - 991 ft." latitude="49.12336" longitude="20.18466" visibility="VISIBILITY_OBSCURED" x="1155.1893630537015" y="451.1577376578618">
+				<dist value="7600.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+					<x>LABEL_TYPE_NIGHT</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Kríky" latitude="49.078264" longitude="20.239251" visibility="VISIBILITY_VISIBLE" x="1311.7936573213744" y="529.4271657999279">
+				<dist value="1200.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Les" latitude="49.084845" longitude="20.233421" visibility="VISIBILITY_VISIBLE" x="1364.4174757281553" y="491.08978715915123">
+				<dist value="2000.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="left" label="Les" latitude="49.099552" longitude="20.225016" visibility="VISIBILITY_VISIBLE" x="1721.2282406705096" y="475.4708684532388">
+				<dist value="3800.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Drn" latitude="49.069667" longitude="20.245891" visibility="VISIBILITY_VISIBLE" x="705.154777280746" y="697.0257981823336">
+				<dist value="177.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec cesty" latitude="49.070068" longitude="20.243124" visibility="VISIBILITY_VISIBLE" x="326.5741321194556" y="602.9612820533014">
+				<dist value="388.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Dráha" latitude="49.073621" longitude="20.241138" visibility="VISIBILITY_VISIBLE" x="1048.896712764617" y="553.0257981823337">
+				<dist value="746.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Dráha" latitude="49.073602" longitude="20.236343" visibility="VISIBILITY_VISIBLE" x="570.4450998613911" y="554.1870885049143">
+				<dist value="1067.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="bottom" label="Koniec odstavnej plochy" latitude="49.069546" longitude="20.247235" visibility="VISIBILITY_VISIBLE" x="1259.0902611517135" y="762.0580562468498">
+				<dist value="110.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+			<x arrowPosition="top" label="Roh odstavnej plochy" latitude="49.069374" longitude="20.24607" visibility="VISIBILITY_VISIBLE" x="469.412841796875" y="741.1548304403981">
+				<dist value="160.0" />
+				<types>
+					<x>LABEL_TYPE_DAY</x>
+				</types>
+			</x>
+		</labels>
+	</x>
+</x>

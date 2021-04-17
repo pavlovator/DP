@@ -1,0 +1,89 @@
+batch_size = 32
+learning_rate = 0.00001
+num_epochs = 50
+criterion = nn.MSELoss()
+img_height = 250
+
+Python 3.7.4 (default, Aug 13 2019, 20:35:49) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.10.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.10.1
+Python 3.7.4 (default, Aug 13 2019, 20:35:49) 
+[GCC 7.3.0] on linux
+In[2]: runfile('/home/filip/Documents/Univerzita/DP_code/src/experiments/exp_VNET1.py', wdir='/home/filip/Documents/Univerzita/DP_code/src/experiments')
+Running on GPU cuda:1
+Dataset loaded, with image shape of (250, 444)
+Epoch: 0 | train loss: 0.04502163082361221 | validation loss: 0.03615535795688629
+Epoch: 1 | train loss: 0.025877349078655243 | validation loss: 0.02567584067583084
+Epoch: 2 | train loss: 0.016779400408267975 | validation loss: 0.021156668663024902
+Epoch: 3 | train loss: 0.013750473037362099 | validation loss: 0.018770061433315277
+Epoch: 4 | train loss: 0.015918295830488205 | validation loss: 0.017395149916410446
+Epoch: 5 | train loss: 0.0209554061293602 | validation loss: 0.01645025424659252
+Epoch: 6 | train loss: 0.011753743514418602 | validation loss: 0.01555620413273573
+Epoch: 7 | train loss: 0.011441902257502079 | validation loss: 0.015064540319144726
+Epoch: 8 | train loss: 0.008127128705382347 | validation loss: 0.014197821728885174
+Epoch: 9 | train loss: 0.008617832325398922 | validation loss: 0.01398407481610775
+Epoch: 10 | train loss: 0.004749659448862076 | validation loss: 0.013602609746158123
+Epoch: 11 | train loss: 0.008904981426894665 | validation loss: 0.013301345519721508
+Epoch: 12 | train loss: 0.00926959328353405 | validation loss: 0.013354912400245667
+Epoch: 13 | train loss: 0.008203771896660328 | validation loss: 0.013020200654864311
+Epoch: 14 | train loss: 0.006158904638141394 | validation loss: 0.012860264629125595
+Epoch: 15 | train loss: 0.010724219493567944 | validation loss: 0.012407634407281876
+Epoch: 16 | train loss: 0.003717345418408513 | validation loss: 0.012217819690704346
+Epoch: 17 | train loss: 0.0066830976866185665 | validation loss: 0.012479986995458603
+Epoch: 18 | train loss: 0.005153345875442028 | validation loss: 0.011929189786314964
+Epoch: 19 | train loss: 0.003528441535308957 | validation loss: 0.01203577034175396
+Epoch: 20 | train loss: 0.004980964586138725 | validation loss: 0.011745085939764977
+Epoch: 21 | train loss: 0.0013752261875197291 | validation loss: 0.011539489030838013
+Epoch: 22 | train loss: 0.003362674033269286 | validation loss: 0.01163132768124342
+Epoch: 23 | train loss: 0.0029786471277475357 | validation loss: 0.011431167833507061
+Epoch: 24 | train loss: 0.0032044360414147377 | validation loss: 0.01134962122887373
+Epoch: 25 | train loss: 0.004432711284607649 | validation loss: 0.011633462272584438
+Epoch: 26 | train loss: 0.0011666357750073075 | validation loss: 0.011429980397224426
+Epoch: 27 | train loss: 0.0026886288542300463 | validation loss: 0.011157222092151642
+Epoch: 28 | train loss: 0.001146007445640862 | validation loss: 0.011308751069009304
+Epoch: 29 | train loss: 0.0012660942738875747 | validation loss: 0.011077064089477062
+Epoch: 30 | train loss: 0.0012539317831397057 | validation loss: 0.011048339307308197
+Epoch: 31 | train loss: 0.0006123654893599451 | validation loss: 0.011196654289960861
+Epoch: 32 | train loss: 0.00030789326410740614 | validation loss: 0.011116398498415947
+Epoch: 33 | train loss: 0.0005339979543350637 | validation loss: 0.011017357930541039
+Epoch: 34 | train loss: 0.00033508113119751215 | validation loss: 0.010976016521453857
+Epoch: 35 | train loss: 0.00045143571333028376 | validation loss: 0.010815264657139778
+Epoch: 36 | train loss: 0.0005830683512613177 | validation loss: 0.011033563874661922
+Epoch: 37 | train loss: 0.00030891961068846285 | validation loss: 0.010862178169190884
+Epoch: 38 | train loss: 0.0003057263675145805 | validation loss: 0.010901792906224728
+Epoch: 39 | train loss: 0.00011113210348412395 | validation loss: 0.011066336184740067
+Epoch: 40 | train loss: 0.00013439994654618204 | validation loss: 0.01109069399535656
+Epoch: 41 | train loss: 0.00013986248814035207 | validation loss: 0.010877011343836784
+Epoch: 42 | train loss: 0.00038959906669333577 | validation loss: 0.010896362364292145
+Epoch: 43 | train loss: 0.0001106438139686361 | validation loss: 0.0107729472219944
+Epoch: 44 | train loss: 0.00011409602302592248 | validation loss: 0.010893482714891434
+Epoch: 45 | train loss: 8.51728837005794e-05 | validation loss: 0.010779187083244324
+Epoch: 46 | train loss: 5.290089393383823e-05 | validation loss: 0.010923928581178188
+Epoch: 47 | train loss: 9.183220390696079e-05 | validation loss: 0.010792391374707222
+Epoch: 48 | train loss: 8.300564513774589e-05 | validation loss: 0.010709509253501892
+Epoch: 49 | train loss: 6.828550976933911e-05 | validation loss: 0.010852805338799953
+Testing Accuracy per Image: 73.08% | Accuracy per Pointer: 97.51%
+              precision    recall  f1-score   support
+         0.0     0.9306    0.8951    0.9125      7291
+         1.0     0.9823    0.9887    0.9855     43019
+    accuracy                         0.9751     50310
+   macro avg     0.9564    0.9419    0.9490     50310
+weighted avg     0.9748    0.9751    0.9749     50310
+TP = 42532, FP = 765, TN = 6526, FN = 487
+Testing (Prevailing)Visibility
+Testing visibility,  MAE: 144.625 m. | acc: 81.12 %
+------Testing visibility of intervals--------
+Interval 0m.  MAE: 242.42352941176472 m. | acc: 57.06% | instances: 170
+Interval 600m.  MAE: 740.5714285714286 m. | acc: 30.16% | instances: 63
+Interval 1500m.  MAE: 880.7282608695652 m. | acc: 60.51% | instances: 552
+Interval 5000m.  MAE: 50.0 m. | acc: 83.36% | instances: 1100
+Interval 10000m.  MAE: 143.96761133603238 m. | acc: 94.25% | instances: 1235
+Testing Prevailing visibility,  MAE: 379.3410256410256 m. | acc: 44.62 %
+------Testing prevailing visibility of intervals--------
+Interval 0m.  MAE: 23.526315789473685 m. | acc: 10.53% | instances: 19
+Interval 600m.  MAE: 37.714285714285715 m. | acc: 0.00% | instances: 7
+Interval 1500m.  MAE: 846.4285714285714 m. | acc: 26.79% | instances: 56
+Interval 5000m.  MAE: 298.4 m. | acc: 42.40% | instances: 125
+Interval 10000m.  MAE: 58.46994535519126 m. | acc: 95.63% | instances: 183
+
